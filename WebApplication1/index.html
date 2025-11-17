@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="app-container">
+        <div class="input-container"
+        <div class="header">
+            <h1>💰Budget Tracker💰</h1>
+
+        <div id="balance">Balance:0.00$</div>
+        <form id="transactions">
+        <input type="text" id="description" placeholder="Description" required />
+        <input type="number" id="amount" placeholder="Amount"  step="0.1" "required />
+        <select id="type">
+        <option value="income">Income🙂</option>
+        <option value="expense">Expense🙁</option>
+        </select>
+        <button type="submit">Add</button>
+        <div class="transactions"
+        <h2>Transactions</h2>
+        <div id="transaction-list"></div>
+        <div class="transactions income"
+            <span>freelance work</span>
+            <span class="transactions ammount"
+            >500$<button class="delete">delete</button></span>
+
+        </div>
+      <div id="transaction-list"></div>
+  <div class="transactions expense"
+      <span>food</span>
+      <span class="transactions ammount"
+      >500$<button class="delete">delete</button></span>
+
+  </div>  <div id="transaction-list"></div>
+  <div class="transactions expense"
+      <span>freelance work</span>
+      <span class="transactions ammount"
+      >500$<button class="delete">delete</button></span>
+
+  </div>
+    </div>
+    <script src="app.js"></script> 
+
+</body>
+</html>
